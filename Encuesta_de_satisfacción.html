@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Jorge Enrique Torres">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laboratorio_2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="surveyForm">
+    <center>
+      <div>
+        <img src="https://www.gifss.com/espacio/tierras/images/tierra-30.gif" width="200" height="200" alt="Tierra Gif">
+      </div>
+
+      <h1>Encuesta de satisfacción</h1>
+
+      <label for="fname">Nombre:</label><br>
+      <input type="text" id="fname" name="fname" required><br>
+
+      <label for="lname">Apellido:</label><br>
+      <input type="text" id="lname" name="lname" required><br>
+
+      <label for="idnumber">Número de identidad:</label><br>
+      <input type="text" id="idnumber" name="idnumber" required><br>
+
+      <p>Señor Usuario, ¿qué opina del servicio prestado por el programador?</p>
+
+      <input type="radio" id="excelente" name="opinion" value="Excelente">
+      <label for="excelente">Excelente</label><br>
+
+      <input type="radio" id="bueno" name="opinion" value="Bueno">
+      <label for="bueno">Bueno</label><br>
+
+      <input type="radio" id="malo" name="opinion" value="Malo">
+      <label for="malo">Malo</label><br>
+
+      <input type="submit" value="Enviar">
+    </center>
+  </form>
+
+  <script src="encuesta.js"></script>
+</body>
+</html>
